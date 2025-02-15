@@ -1,0 +1,22 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #242424;
+  color: aliceblue;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: aqua;
+}
+
+.rightMenu {
+  position: fixed;
+  left: 51%; /* Start at the middle of the screen */
+  width: 49vw; /* Occupy the right half of the screen */
+  height: 100vh; /* Full height */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
